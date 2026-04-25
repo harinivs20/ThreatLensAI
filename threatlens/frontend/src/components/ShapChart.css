@@ -1,0 +1,11 @@
+.shap-card { padding:18px 20px; }
+.shap-sub { font-size:12px; color:var(--gray-500); margin-bottom:14px; margin-top:-6px; }
+.shap-list { display:flex; flex-direction:column; gap:10px; }
+.shap-row { display:grid; grid-template-columns:170px 1fr 110px; gap:10px; align-items:center; }
+.shap-label { font-size:12px; font-weight:500; color:var(--gray-800); }
+.shap-bar-wrap { display:flex; align-items:center; gap:8px; }
+.shap-track { flex:1; height:8px; background:var(--gray-200); border-radius:4px; overflow:hidden; }
+.shap-fill { height:100%; border-radius:4px; transition:width 0.8s ease; }
+.shap-val { font-size:11px; font-weight:700; font-family:var(--mono); white-space:nowrap; min-width:52px; text-align:right; }
+.shap-impact { font-size:10px; font-weight:600; text-align:right; }
+.shap-legend { display:flex; gap:20px; margin-top:14px; padding-top:12px; border-top:1px solid var(--gray-200); font-size:11px; color:var(--gray-600); }

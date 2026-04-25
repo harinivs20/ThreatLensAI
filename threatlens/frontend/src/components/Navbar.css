@@ -1,0 +1,20 @@
+.navbar {
+  background: var(--navy); padding: 0 28px; height: 60px;
+  display: flex; align-items: center; justify-content: space-between;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2); position: sticky; top: 0; z-index: 100;
+}
+.nb-brand { display: flex; align-items: center; gap: 10px; }
+.nb-logo  { font-size: 24px; }
+.nb-title { color: #fff; font-weight: 700; font-size: 17px; line-height: 1.2; }
+.nb-title span { color: #60a5fa; }
+.nb-sub   { color: #64748b; font-size: 10px; }
+.nb-links { display: flex; gap: 4px; }
+.nb-link {
+  color: #94a3b8; padding: 7px 13px; border-radius: 8px;
+  font-size: 13px; font-weight: 500; transition: all 0.18s; text-decoration: none;
+}
+.nb-link:hover  { background: rgba(255,255,255,0.08); color: #fff; text-decoration: none; }
+.nb-link.active { background: rgba(59,130,246,0.2); color: #60a5fa; }
+.nb-status { display: flex; align-items: center; gap: 6px; font-size: 11px; color: #64748b; }
+.nb-dot { width: 7px; height: 7px; border-radius: 50%; background: #10b981; animation: blink 2s infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.4} }

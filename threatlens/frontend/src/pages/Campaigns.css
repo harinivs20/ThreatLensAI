@@ -1,0 +1,43 @@
+.camp-page { max-width:900px; margin:0 auto; }
+.camp-loading,.camp-error { text-align:center; padding:60px; font-size:15px; color:var(--gray-600); }
+.camp-hero { text-align:center; margin-bottom:24px; }
+.camp-hero h1 { font-size:24px; font-weight:800; color:var(--navy); margin-bottom:6px; }
+.camp-hero p  { font-size:13px; color:var(--gray-600); }
+.camp-list { display:flex; flex-direction:column; gap:14px; }
+.camp-card { padding:20px; border-left:4px solid var(--amber); }
+.camp-top  { display:flex; justify-content:space-between; align-items:flex-start; gap:14px; margin-bottom:12px; }
+.camp-main { flex:1; }
+.camp-id   { font-size:10px; color:var(--gray-400); font-family:var(--mono); margin-bottom:4px; }
+.camp-name { font-size:16px; font-weight:700; color:var(--navy); margin-bottom:6px; }
+.camp-desc { font-size:12px; color:var(--gray-600); line-height:1.5; margin-bottom:10px; }
+.camp-meta { display:flex; flex-wrap:wrap; gap:14px; font-size:12px; color:var(--gray-600); }
+.camp-meta strong { color:var(--gray-800); }
+.camp-total-box { text-align:center; background:var(--amber-lt); border:1px solid #fde68a; border-radius:10px; padding:12px 16px; min-width:88px; }
+.camp-total-num { font-size:26px; font-weight:800; font-family:var(--mono); color:var(--amber); }
+.camp-total-lbl { font-size:9px; color:#92400e; text-transform:uppercase; letter-spacing:0.1em; margin-top:2px; }
+.camp-orgs { display:flex; flex-wrap:wrap; gap:8px; }
+.camp-org-chip { display:flex; align-items:center; gap:8px; background:var(--gray-50); border:1px solid var(--gray-200); border-radius:20px; padding:4px 12px; font-size:12px; }
+.camp-org-chip strong { background:var(--amber); color:#fff; padding:1px 7px; border-radius:12px; font-size:11px; }
+
+/* Control row */
+.camp-control-row { display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin-bottom:16px; }
+.camp-count-chips { display:flex; gap:8px; flex-wrap:wrap; }
+.count-chip { padding:4px 12px; border-radius:20px; font-size:12px; font-weight:700; border:1px solid; }
+.count-chip.total  { background:var(--blue-pale); color:var(--blue-mid); border-color:#bfdbfe; }
+.count-chip.local  { background:#f0fdf4; color:var(--green); border-color:#86efac; }
+.count-chip.online { background:var(--amber-lt); color:var(--amber); border-color:#fcd34d; }
+.camp-filters { display:flex; gap:6px; }
+.filter-btn { padding:6px 14px; border-radius:8px; font-size:12px; font-weight:600; background:var(--white); color:var(--gray-600); border:1.5px solid var(--gray-200); cursor:pointer; transition:all 0.18s; }
+.filter-btn.active { background:var(--blue-pale); color:var(--blue-mid); border-color:var(--blue-mid); }
+.filter-btn:hover:not(.active) { border-color:var(--blue-mid); }
+
+/* Info box */
+.camp-info-box { background:var(--blue-pale); border:1px solid #bfdbfe; border-radius:var(--radius); padding:12px 16px; font-size:13px; color:var(--gray-700); margin-bottom:14px; line-height:1.6; }
+.camp-empty { padding:30px; text-align:center; font-size:13px; color:var(--gray-400); }
+
+/* Online card */
+.camp-online { border-left-color:var(--green) !important; }
+.camp-badges { display:flex; align-items:center; gap:8px; margin-bottom:4px; }
+.camp-source-tag { font-size:10px; }
+.camp-source-link { font-size:11px; color:var(--blue-mid); font-weight:500; }
+.camp-source-link:hover { text-decoration:underline; }

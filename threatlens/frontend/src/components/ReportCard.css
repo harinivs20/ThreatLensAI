@@ -1,0 +1,13 @@
+.rc-card { padding: 18px 20px; }
+.rc-dims { display: flex; flex-direction: column; gap: 12px; }
+.dim-row { background: var(--gray-50); border-radius: 8px; padding: 10px 14px; border: 1px solid var(--gray-200); }
+.dim-top { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+.dim-label { font-size: 12px; font-weight: 600; color: var(--gray-800); }
+.dim-right { display: flex; align-items: center; gap: 8px; }
+.dim-bar-track { width: 100px; height: 7px; background: var(--gray-200); border-radius: 4px; overflow: hidden; }
+.dim-bar-fill { height: 100%; border-radius: 4px; transition: width 0.7s ease; }
+.dim-score { font-size: 10px; color: var(--gray-400); font-family: var(--mono); width: 40px; text-align: right; }
+.dim-grade { font-size: 13px; font-weight: 800; padding: 2px 8px; border-radius: 6px; min-width: 28px; text-align: center; }
+.dim-reason { font-size: 11px; color: var(--gray-600); line-height: 1.5; }
+.rc-urgency { display: flex; justify-content: space-between; align-items: center; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--gray-200); font-size: 13px; color: var(--gray-600); }
+.rc-urgency strong { font-size: 15px; font-family: var(--mono); }

@@ -1,0 +1,23 @@
+.cc-none { display:flex; align-items:flex-start; gap:14px; padding:16px 18px; background:var(--gray-50); }
+.cc-none-icon { font-size:26px; }
+.cc-none-title { font-weight:600; color:var(--gray-800); margin-bottom:4px; font-size:13px; }
+.cc-none-sub { font-size:12px; color:var(--gray-600); }
+.cc-match { padding:18px 20px; border-left:4px solid var(--amber); }
+.cc-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
+.cc-sim { font-size:12px; color:var(--amber); font-weight:600; font-family:var(--mono); }
+.cc-name { font-size:16px; font-weight:700; color:var(--navy); margin-bottom:6px; }
+.cc-desc { font-size:12px; color:var(--gray-600); line-height:1.5; margin-bottom:14px; }
+.cc-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:14px; }
+.cc-stat { background:var(--amber-lt); border:1px solid #fde68a; border-radius:8px; padding:10px 12px; text-align:center; }
+.cc-stat-val { font-size:14px; font-weight:700; color:var(--amber); margin-bottom:2px; }
+.cc-stat-key { font-size:9px; color:#92400e; text-transform:uppercase; letter-spacing:0.1em; }
+.cc-orgs-title { font-size:11px; font-weight:700; color:var(--gray-800); margin-bottom:8px; }
+.cc-orgs { display:flex; flex-direction:column; gap:6px; margin-bottom:12px; }
+.cc-org-row { display:grid; grid-template-columns:1fr 80px 28px; gap:8px; align-items:center; }
+.cc-org-type { font-size:12px; color:var(--gray-700); }
+.cc-org-bar-wrap { height:5px; background:var(--gray-200); border-radius:3px; overflow:hidden; }
+.cc-org-bar { height:100%; background:linear-gradient(90deg,#fcd34d,var(--amber)); border-radius:3px; transition:width 0.8s; }
+.cc-org-count { font-size:11px; font-weight:700; color:var(--amber); text-align:right; font-family:var(--mono); }
+.cc-warning { background:#fef2f2; border:1px solid #fca5a5; border-radius:6px; padding:8px 12px; font-size:12px; color:var(--red); font-weight:500; }
+.cc-source-link { display:inline-block; margin-top:8px; font-size:11px; color:var(--blue-mid); font-weight:500; }
+.cc-source-link:hover { text-decoration:underline; }
