@@ -1,6 +1,6 @@
 # 🛡️ ThreatLens AI — Unified Phishing Intelligence Platform
 
-**Final Year Project · B.Tech CSE · 2024–25**
+
 
 ---
 
@@ -117,11 +117,11 @@ npm install
 npm start
 ```
 
-✅ Frontend is running at: **http://localhost:3000**
+ Frontend is running at: **http://localhost:3000**
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. Open **http://localhost:3000** in your browser
 2. Click **🔍 Scanner** tab
@@ -138,7 +138,7 @@ npm start
 
 ---
 
-## 🧪 Test Inputs
+ Test Inputs
 
 ### Phishing URLs (will score HIGH/CRITICAL):
 ```
@@ -166,7 +166,7 @@ or you will lose access within 24 hours.
 
 ---
 
-## 🔑 API Endpoints
+ API Endpoints
 
 | Method | Endpoint        | Description                    |
 |--------|----------------|-------------------------------|
@@ -176,16 +176,3 @@ or you will lose access within 24 hours.
 | GET    | /api/campaigns  | Known campaign list            |
 | GET    | /api/health     | Health check                   |
 
----
-
-## 👥 Team
-
-| Name           | Roll No  | Role      |
-|----------------|----------|-----------|
-| Arun Kumar S   | 21CS045  | ML Lead   |
-| Priya Nair     | 21CS067  | Backend   |
-| Karthik R      | 21CS031  | Frontend  |
-| Sneha Menon    | 21CS089  | Research  |
-
-**Guide:** Dr. S. Rajendran, Associate Professor
-**Department of Computer Science & Engineering · 2024–25**
